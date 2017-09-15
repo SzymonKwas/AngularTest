@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 
 @Component({
@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'apka dziala';
-  name:string
+  name: string;
 
-  constructor(){
+  constructor() {
     this.name = 'siema';
   }
 }
