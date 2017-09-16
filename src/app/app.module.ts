@@ -9,6 +9,7 @@ import {WarningComponent} from "./warning/warning.component";
 import { PositiveComponent } from './positive/positive.component';
 import {ServerComponent} from "./server/server.component";
 import {ServersComponent} from "./servers/servers.component";
+import { UsernameComponent } from './username/username.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {ServersComponent} from "./servers/servers.component";
     ServerComponent,
     ServersComponent,
     WarningComponent,
-    PositiveComponent
+    PositiveComponent,
+    UsernameComponent
   ],
   imports: [
     BrowserModule,
