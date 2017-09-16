@@ -5,11 +5,11 @@ import { AppComponent } from './app.component';
 
 
 import {FormsModule} from "@angular/forms";
-import {WarningComponent} from "./warning/warning.component";
-import { PositiveComponent } from './positive/positive.component';
+
 import {ServerComponent} from "./server/server.component";
 import {ServersComponent} from "./servers/servers.component";
-import { UsernameComponent } from './username/username.component';
+import { PasswordComponent } from './password/password.component';
+
 
 
 @NgModule({
@@ -17,9 +17,7 @@ import { UsernameComponent } from './username/username.component';
     AppComponent,
     ServerComponent,
     ServersComponent,
-    WarningComponent,
-    PositiveComponent,
-    UsernameComponent
+    PasswordComponent
   ],
   imports: [
     BrowserModule,
