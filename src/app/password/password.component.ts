@@ -9,17 +9,16 @@ import {iterator} from "rxjs/symbol/iterator";
 export class PasswordComponent implements OnInit {
   haslo = 'mojetajnehaslo';
   iterator: number;
-  itArray: [number];
+  itArray = [];
   constructor() {
     this.iterator = 0;
-    this.itArray = [];
   }
 
   ngOnInit() {
   }
   onBtnClick(){
   this.iterator++;
-  this.itArray.push(this.iterator);
+  this.itArray.push(new Date());
   }
   getColor(it){
     if(it> 4){
